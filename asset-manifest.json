@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nasze-kompetencje/static/css/main.4963aca4.css",
+    "main.js": "/nasze-kompetencje/static/js/main.b698579e.js",
+    "index.html": "/nasze-kompetencje/index.html",
+    "main.4963aca4.css.map": "/nasze-kompetencje/static/css/main.4963aca4.css.map",
+    "main.b698579e.js.map": "/nasze-kompetencje/static/js/main.b698579e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4963aca4.css",
+    "static/js/main.b698579e.js"
+  ]
+}
