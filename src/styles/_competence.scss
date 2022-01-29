@@ -1,12 +1,24 @@
 .Competence {
 	display: inline-block;
 
-	@include children-spacing(15px, true);
-
 	&__content {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		@include children-spacing(15px, right);
+	}
+	&__content--top {
+		flex-direction: column-reverse;
+		@include children-spacing(15px, top);
+	}
+	&__content--bottom {
+		flex-direction: column;
+		@include children-spacing(15px, bottom);
+	}
+	&__content--left {
+		flex-direction: row-reverse;
+		@include children-spacing(15px, left);
 	}
 
 	&__icon {
