@@ -17,7 +17,7 @@ const competences = [
 	},
 	{
 		name: 'Finansowanie handlu międzynarodowego',
-		icon: require('../assets/icons/icons/trade.svg').default,
+		icon: require('../assets/icons/trade.svg').default,
 	},
 	{
 		name: 'Pozyskiwanie inwestorów (M&A)',
