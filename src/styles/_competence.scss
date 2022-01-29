@@ -1,7 +1,36 @@
 .Competence {
+	display: inline-block;
+
+	@include children-spacing(15px, true);
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	&__icon {
+		$size: 5rem;
+		$icon-size: 80%;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		border-radius: 50%;
+		border: 3px solid #aaaaaa;
+		width: $size;
+		height: $size;
+		padding: 10px;
+
+		img {
+			color: $color-primary;
+			width: $icon-size;
+			height: $icon-size;
+		}
 	}
 
 	&__name {
+		font-weight: 700;
 	}
 }

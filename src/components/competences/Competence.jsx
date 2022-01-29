@@ -9,9 +9,13 @@ import React from 'react';
 export default function Competence({ icon, children }) {
 	return (
 		<div className='Competence'>
-			<img src={icon} alt='competence' className='Competence__icon' />
+			<div className='Competence__content'>
+				<div className='Competence__icon'>
+					<img src={icon} alt='competence' />
+				</div>
 
-			<h2 className='Competence__name'>{children}</h2>
+				<h2 className='Competence__name'>{children}</h2>
+			</div>
 		</div>
 	);
 }
