@@ -12,7 +12,7 @@ $font-placeholder: #565e66;
 $font-main: 'Hind', sans-serif;
 $font-alt: 'Roboto', sans-serif;
 
-// breakpoints
+// Breakpoints
 $breakpoints: (
 	sm: 576px,
 	md: 768px,
@@ -20,3 +20,9 @@ $breakpoints: (
 	xl: 1200px,
 	xxl: 1400px,
 );
+
+// Colors
+$color-primary: #2ea7d9;
+$color-secondary: #274291;
+$color-accent: #d5dddf;
+$color-accent-light: #f6f7fb;
