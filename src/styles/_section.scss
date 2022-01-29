@@ -1,5 +1,6 @@
 .Section {
 	padding: 50px;
+	@include children-spacing(25px);
 
 	&__title {
 		font-family: $font-main;
@@ -12,9 +13,5 @@
 	&__subtitle {
 		font-family: $font-alt;
 		text-align: center;
-	}
-
-	> *:not(:last-child) {
-		margin-bottom: 25px;
 	}
 }
