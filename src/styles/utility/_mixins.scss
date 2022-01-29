@@ -1,11 +1,6 @@
-@mixin children-spacing($margin, $horizontal: false) {
-	@if ($horizontal) {
-		> *:not(:last-child) {
-			margin-right: $margin;
-		}
-	} @else {
-		> *:not(:last-child) {
-			margin-bottom: $margin;
-		}
+@mixin children-spacing($margin, $align: 'bottom') {
+	> *:not(:last-child) {
+		margin: 0;
+		margin-#{$align}: $margin;
 	}
 }
