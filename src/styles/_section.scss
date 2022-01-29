@@ -1,0 +1,18 @@
+.Section {
+	&__title {
+		font-family: $font-main;
+		font-weight: 700;
+		font-size: $font-big-size;
+		line-height: $font-big-height;
+		text-align: center;
+	}
+
+	&__subtitle {
+		font-family: $font-alt;
+		text-align: center;
+	}
+
+	> *:not(:last-child) {
+		margin-bottom: 25px;
+	}
+}
