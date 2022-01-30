@@ -1,48 +1,50 @@
+@use 'sass:math';
+
 .Competence {
-	display: inline-block;
+	$icon-size: 5rem;
+	$spacing: 20px;
 
-	&__content {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+	position: relative;
 
-		@include children-spacing(15px, right);
+	$center: translateY(-50%);
+	&__name {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 21rem;
+
+		// default align right
+		transform: $center translateX(calc(#{math.div($icon-size, 2)} + #{$spacing}));
 	}
-	&__content--top {
-		flex-direction: column-reverse;
-		@include children-spacing(15px, top);
+	&__name--top {
+		transform: $center translate(-50%, calc(#{math.div(-$icon-size, 2)} - #{$spacing}));
+		text-align: center;
 	}
-	&__content--bottom {
-		flex-direction: column;
-		@include children-spacing(15px, bottom);
+	&__name--bottom {
+		transform: $center translate(-50%, calc(#{math.div($icon-size, 2)} + #{$spacing}));
+		text-align: center;
 	}
-	&__content--left {
-		flex-direction: row-reverse;
-		@include children-spacing(15px, left);
+	&__name--left {
+		transform: $center translateX(calc(#{math.div(-$icon-size, 2)} - #{$spacing} - 100%));
+		text-align: right;
 	}
 
 	&__icon {
-		$size: 5rem;
-		$icon-size: 80%;
-
 		display: flex;
 		justify-content: center;
 		align-items: center;
 
 		border-radius: 50%;
-		border: 3px solid #aaaaaa;
-		width: $size;
-		height: $size;
+		border: 3px solid $color-accent;
+		background-color: $color-accent-light;
+		width: $icon-size;
+		height: $icon-size;
 		padding: 10px;
 
 		img {
 			color: $color-primary;
-			width: $icon-size;
-			height: $icon-size;
+			width: 80%;
+			height: 80%;
 		}
-	}
-
-	&__name {
-		font-weight: 700;
 	}
 }
