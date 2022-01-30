@@ -2,6 +2,10 @@
 	padding: 50px;
 	@include children-spacing(25px);
 
+	> * {
+		margin: 0 auto;
+	}
+
 	&__title {
 		font-family: $font-main;
 		font-weight: 700;
