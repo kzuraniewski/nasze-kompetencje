@@ -1,0 +1,28 @@
+// Fonts
+$font-regular-size: 1rem;
+$font-big-size: 2.25rem;
+
+$font-regular-height: 1.5rem;
+$font-big-height: 2rem;
+
+$font-black: #2f2f2f;
+$font-white: #ffffff;
+$font-placeholder: #565e66;
+
+$font-main: 'Hind', sans-serif;
+$font-alt: 'Roboto', sans-serif;
+
+// Breakpoints
+$breakpoints: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+);
+
+// Colors
+$color-primary: #2ea7d9;
+$color-secondary: #274291;
+$color-accent: #d4dbe0;
+$color-accent-light: #f4f7f9;

@@ -1,0 +1,19 @@
+@use 'sass:map';
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
+
+	@media (min-width: map.get($breakpoints, md)) {
+		max-width: 720px;
+	}
+
+	@media (min-width: map.get($breakpoints, lg)) {
+		max-width: 960px;
+	}
+
+	@media (min-width: map.get($breakpoints, xl)) {
+		max-width: 1140px;
+	}
+}

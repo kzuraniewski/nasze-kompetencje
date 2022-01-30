@@ -1,1 +1,10 @@
+@import 'utility/reset';
+@import 'utility/variables';
+@import 'utility/mixins';
+@import 'utility/container';
+
 @import 'main';
+@import 'section';
+@import 'competence';
+@import 'diagram';
+@import 'competence-diagram';

@@ -1,0 +1,13 @@
+@mixin children-spacing($margin, $align: 'bottom') {
+	> *:not(:last-child) {
+		margin: 0;
+		margin-#{$align}: $margin;
+	}
+}
+
+@mixin absolute-centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
