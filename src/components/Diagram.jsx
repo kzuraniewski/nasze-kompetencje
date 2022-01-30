@@ -20,7 +20,7 @@ export default function Diagram({ radius = 200, children }) {
 	};
 
 	return (
-		<div className='Diagram'>
+		<div className='Diagram' style={{ height: `${radius * 2}px` }}>
 			{React.Children.map(children, (child, index) => (
 				<div key={index} style={getChildStyle(index)}>
 					{React.cloneElement(child)}
