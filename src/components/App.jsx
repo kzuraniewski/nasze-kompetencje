@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from './Section';
+import CompetenceDiagram from './competence/CompetenceDiagram';
 
 export default function App() {
 	return (
@@ -9,7 +10,7 @@ export default function App() {
 					title='Obszary naszych kompetencji'
 					subtitle='Pomagamy uczyć się na błędach innych. Wspieramy i rekomendujemy wartościowe rozwiązania biznesowe.'
 				>
-					*content*
+					<CompetenceDiagram />
 				</Section>
 			</main>
 		</div>
