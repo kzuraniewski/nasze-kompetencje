@@ -5,6 +5,8 @@
 	$spacing: 20px;
 
 	position: relative;
+	width: $icon-size;
+	height: $icon-size;
 
 	$center: translateY(-50%);
 	&__name {
@@ -37,8 +39,8 @@
 		border-radius: 50%;
 		border: 3px solid $color-accent;
 		background-color: $color-accent-light;
-		width: $icon-size;
-		height: $icon-size;
+		width: 100%;
+		height: 100%;
 		padding: 10px;
 
 		img {
