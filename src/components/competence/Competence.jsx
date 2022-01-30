@@ -10,17 +10,15 @@ import React from 'react';
 export default function Competence({ icon, align = 'right', children }) {
 	return (
 		<div className='Competence'>
-			<div className={`Competence__content Competence__content--${align}`}>
-				<div className='Competence__icon'>
-					<img
-						// @ts-ignore
-						src={icon}
-						alt='competence'
-					/>
-				</div>
-
-				<h2 className='Competence__name'>{children}</h2>
+			<div className='Competence__icon'>
+				<img
+					// @ts-ignore
+					src={icon}
+					alt='competence'
+				/>
 			</div>
+
+			<h2 className={`Competence__name Competence__name--${align}`}>{children}</h2>
 		</div>
 	);
 }
