@@ -4,9 +4,9 @@ import React from 'react';
  * Places its children in a circle pattern
  * @param {object} props
  * @param {React.ReactNode} props.children
- * @param {string} [props.size = '100px'] - the size of the diagram in css units
+ * @param {number} [props.radius = 200] - radius of the diagram in pixels, relative to the parent component
  */
-export default function Diagram({ size = '200px', children }) {
+export default function Diagram({ radius = 200, children }) {
 	const getChildStyle = index => {
 		// element's rotation based on index, rotated by 90 deg to the left
 		let rotation = index * (360 / React.Children.count(children)) - 90;
@@ -15,7 +15,7 @@ export default function Diagram({ size = '200px', children }) {
 		if (rotation < 0) rotation += 360;
 
 		return {
-			transform: `rotate(${rotation}deg) translate(${size}) rotate(-${rotation}deg) translate(-50%, calc(${size} / 2 - 50%))`,
+			transform: `rotate(${rotation}deg) translate(${radius}px) rotate(-${rotation}deg) translate(-50%, calc(-50% + ${radius}px))`,
 		};
 	};
 
