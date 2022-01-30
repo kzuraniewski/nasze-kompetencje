@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nasze-kompetencje/static/css/main.3a9b1096.css",
-    "main.js": "/nasze-kompetencje/static/js/main.475aedbd.js",
+    "main.js": "/nasze-kompetencje/static/js/main.183d429c.js",
     "static/media/diagram.svg": "/nasze-kompetencje/static/media/diagram.87acda814ca4d1e630cb4802e03bf5ea.svg",
     "static/media/intelectual-property.svg": "/nasze-kompetencje/static/media/intelectual-property.846d2b7c97c2009e8650ac53efe2ed38.svg",
     "static/media/international-law.svg": "/nasze-kompetencje/static/media/international-law.8cbc4a6773f80bfeba1090a8163cb0b8.svg",
@@ -17,10 +17,10 @@
     "static/media/crowdfunding.svg": "/nasze-kompetencje/static/media/crowdfunding.365858dc02b3c83ea61918ffec903fe4.svg",
     "index.html": "/nasze-kompetencje/index.html",
     "main.3a9b1096.css.map": "/nasze-kompetencje/static/css/main.3a9b1096.css.map",
-    "main.475aedbd.js.map": "/nasze-kompetencje/static/js/main.475aedbd.js.map"
+    "main.183d429c.js.map": "/nasze-kompetencje/static/js/main.183d429c.js.map"
   },
   "entrypoints": [
     "static/css/main.3a9b1096.css",
-    "static/js/main.475aedbd.js"
+    "static/js/main.183d429c.js"
   ]
 }
