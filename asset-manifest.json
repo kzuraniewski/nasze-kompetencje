@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/nasze-kompetencje/static/css/main.4963aca4.css",
-    "main.js": "/nasze-kompetencje/static/js/main.b698579e.js",
+    "main.css": "/nasze-kompetencje/static/css/main.4225892b.css",
+    "main.js": "/nasze-kompetencje/static/js/main.be73dc7e.js",
+    "static/media/intelectual-property.svg": "/nasze-kompetencje/static/media/intelectual-property.846d2b7c97c2009e8650ac53efe2ed38.svg",
+    "static/media/international-law.svg": "/nasze-kompetencje/static/media/international-law.8cbc4a6773f80bfeba1090a8163cb0b8.svg",
+    "static/media/grants.svg": "/nasze-kompetencje/static/media/grants.5baa68b0dce8122ef2152fa283101e71.svg",
+    "static/media/management.svg": "/nasze-kompetencje/static/media/management.c605f8b5061951c16a51974c64424d67.svg",
+    "static/media/trade.svg": "/nasze-kompetencje/static/media/trade.21608a34473e65032f235b6cbd650651.svg",
+    "static/media/taxes.svg": "/nasze-kompetencje/static/media/taxes.cc454f95825d139b019077d843e1dbd0.svg",
+    "static/media/marketing.svg": "/nasze-kompetencje/static/media/marketing.569e3550b5f00723bf8a1bf794380d9e.svg",
+    "static/media/real-estates.svg": "/nasze-kompetencje/static/media/real-estates.3ccc857a601aecf51ea21c1a8d82a300.svg",
+    "static/media/productivity.svg": "/nasze-kompetencje/static/media/productivity.a1e1a2e3f215888401765c898de1ae81.svg",
+    "static/media/investors.svg": "/nasze-kompetencje/static/media/investors.9c23694d9e2f1bd4f2e7f7f128d36c03.svg",
+    "static/media/insurance.svg": "/nasze-kompetencje/static/media/insurance.157990222b560e56a2498182d031a9c9.svg",
+    "static/media/crowdfunding.svg": "/nasze-kompetencje/static/media/crowdfunding.365858dc02b3c83ea61918ffec903fe4.svg",
     "index.html": "/nasze-kompetencje/index.html",
-    "main.4963aca4.css.map": "/nasze-kompetencje/static/css/main.4963aca4.css.map",
-    "main.b698579e.js.map": "/nasze-kompetencje/static/js/main.b698579e.js.map"
+    "main.4225892b.css.map": "/nasze-kompetencje/static/css/main.4225892b.css.map",
+    "main.be73dc7e.js.map": "/nasze-kompetencje/static/js/main.be73dc7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4963aca4.css",
-    "static/js/main.b698579e.js"
+    "static/css/main.4225892b.css",
+    "static/js/main.be73dc7e.js"
   ]
 }
