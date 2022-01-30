@@ -1,5 +1,6 @@
 import React from 'react';
 import competences from '../competences';
+import Diagram from '../Diagram';
 import Competence from './Competence';
 
 /**
@@ -24,11 +25,13 @@ export default function CompetenceDiagram() {
 
 	return (
 		<div className='CompetenceDiagram'>
-			{competences.map(({ icon, name }, index) => (
-				<Competence key={index} icon={icon} align={getCompetenceAlign(index)}>
-					{name}
-				</Competence>
-			))}
+			<Diagram>
+				{competences.map(({ icon, name }, index) => (
+					<Competence key={index} icon={icon} align={getCompetenceAlign(index)}>
+						{name}
+					</Competence>
+				))}
+			</Diagram>
 		</div>
 	);
 }
