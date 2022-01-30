@@ -1,0 +1,37 @@
+.CompetenceDiagram {
+	$size: 600px;
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 160px 0;
+
+	&__text {
+		font-size: 14px;
+		color: white;
+		text-transform: uppercase;
+		@include absolute-centered;
+	}
+
+	&__image {
+		width: $size * 0.7;
+		height: $size * 0.7;
+	}
+
+	&__circle {
+		width: 540px;
+		height: 540px;
+		border-radius: 50%;
+		border: 2px solid $color-accent;
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.Diagram {
+		@include absolute-centered;
+	}
+}
